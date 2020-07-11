@@ -1,0 +1,14 @@
+{% extends 'website\base.html' %}
+{% block title %}
+Index
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="jumbotron">
+        <h1> This is a Index Page</h1><br>
+        <a href="{% url  'login2' %}">Go to other page</a>
+    </div>
+
+</div>
+
+{% endblock %}
